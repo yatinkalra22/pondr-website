@@ -1,0 +1,28 @@
+.privacy {
+  margin-top: 60px;
+}
+
+.privacy_container {
+  max-width: 930px;
+}
+
+.privacy .section-title h4{
+  font-weight: 700 !important;
+  color: #000;
+  font-size: 30px;
+}
+
+.privacy .section-body h5 {
+  font-weight: 600;
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 25px;
+  text-decoration: underline;
+}
+
+.privacy .section-body p {
+  text-align: justify;
+  color: #000;
+  font-size: 15.6px;
+}

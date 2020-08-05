@@ -1,0 +1,114 @@
+.cookie_banner {
+  z-index: 100000;
+}
+
+.cookie_banner.hide {
+  -webkit-animation: slide-bottom 1.2s ease-in-out backwards;
+  animation: slide-bottom 1.2s ease-in-out backwards;
+}
+
+.cookie_banner .close_banner {
+  text-decoration: none;
+  font-size: 22px;
+  position: absolute;
+  top: 6px;
+  right: 25px;
+}
+
+.cookie_banner {
+  -webkit-animation: slide-up 1.5s ease-in-out forwards;
+  animation: slide-up 1.5s ease-in-out forwards;
+  touch-action: pan-x cross-slide-x;
+  -ms-touch-action: pan-x;
+}
+
+.cookie_banner_content{
+  background-color: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 30px 15px 10px 15px;
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
+                      0 1px 10px 0 rgba(0,0,0,0.12),
+                      0 2px 4px -1px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
+              0 1px 10px 0 rgba(0,0,0,0.12),
+              0 2px 4px -1px rgba(0,0,0,0.3);
+  font-size: 15px;
+}
+
+.cookie_banner_content a {
+  color: #5b83c2;
+  text-decoration: none;
+}
+
+.cookie_banner_content button {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.cookie_banner_content button.accept_button {
+  background-color: #5b83c2;
+  color: #ffffff;
+}
+
+.cookie_banner_content button.accept_button:hover {
+  background-color: #4572ba;
+}
+
+.cookie_banner_content button.decline_button {
+  background: transparent;
+  border: 1px solid #5b83c2;
+  color: #5b83c2;
+}
+
+.cookie_banner_content button.decline_button:hover {
+  background-color: rgba(91, 131, 194, 0.1);
+}
+
+@-webkit-keyframes slide-up {
+  0% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+@keyframes slide-up {
+  0% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .cookie_banner_content {
+    padding-bottom: 20px;
+  }
+}

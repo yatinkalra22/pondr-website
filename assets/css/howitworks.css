@@ -1,0 +1,17 @@
+.howitworks {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.howitworks .section-title h2 {
+  font-weight: 600;
+  color: #000000;
+}
+
+.howitworks .section-title p {
+  max-width: 500px;
+}
+
+.howitworks .section-image {
+  max-width: 800px;
+}

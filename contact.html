@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Devie</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+   <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href = "assets/css/contact.css" rel="stylesheet">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169204109-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169204109-2');
+</script>
+</head>
+
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top navbar header-scrolled">
+    <div class="container-fluid p-0 px-md-1 d-flex">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logo.png" alt="" class="img-fluid">
+        <span class="font-size:100%">Devie</span>
+      </a>
+      <ul class="navbar-nav mr-auto">
+        <li class="navbar-item"><a href="about.html">Our Story</a></li>
+        <li class="navbar-item"><a href="howitworks.html">How it Works</a></li>
+        <li class="navbar-item"><a href="https://www.facebook.com/groups/devieparentssupport/" target="_blank">Connect with Other Parents</a></li>
+        <li class="navbar-item d-none d-lg-block"><a href="blog.html">Blog</a></li>
+        <li class="navbar-item d-none d-lg-block"><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+        <a class="trybtn ml-auto" href="signup.html">
+          <button class="btn try_button" id="trybtn">Try it for free</button>
+        </a>
+      
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="mobile-navbar-item"><h1 style="font-size:100%;"><a href="index.html"><span>Home</span></a></h1></li>
+          <li class="mobile-navbar-item"><h1 style="font-size:100%;"><a href="about.html"><span>Our Story</span></a></h1></li>
+          <li class="mobile-navbar-item"><h1 style="font-size:100%;color: black;"><a href="howitworks.html">How it Works</a> </h1></li>
+          <li class="mobile-navbar-item"><h1 style="font-size:100%;color: black;"><a href="https://www.facebook.com/groups/devieparentssupport/" target="_blank">Connect with Other Parents</a> </h1></li>
+          <li class="mobile-navbar-item"><h1 style="font-size:100%;color: black;"><a href="blog.html">Blog</a> </h1></li>
+          <li class="mobile-navbar-item"><h1 style="font-size:100%;color: black;"><a href="contact.html">Contact Us</a> </h1></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container container_contact">
+        <div class="section-title-above">
+          <div class="section-title" data-aos="fade-up">
+            <div class="contact_rec_bg m-auto">
+              <img src="assets/img/common/contact_rectangle.svg">
+              <h2 class="mb-5">Contact Us</h2>
+            </div>
+            <h4 class="mb-4">How can we help?</h4>
+            <div class="contact_circle_bg m-auto">
+              <p text-align = "center">Questions, bug reports, feedback — we’d love to hear from you!</a></p>
+              <p text-align="center">Use the form below or email us at <a href = "mailto: team@deviecoach.com">team@deviecoach.com.</a></p>
+              <img src="assets/img/common/contact_circle.svg">
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-container">
+
+          <div class="col-12 col-sm-10 col-md-8 col-lg-6 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
+
+            <form action="onformSubmit()" method="post" role="form" class="devieform contactus_form">
+              <div class="form-group">
+                <label for="name">Name * </label>
+                <input type="text" class="form-control" name="name" id="subject"/>
+                <div class="validate name_msg"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Email *</label>
+                <input type="email" class="form-control" name="email" id="subject"/>
+                <div class="validate email_msg"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject *</label>
+                <input type="text" class="form-control" name="subject" id="subject"/>
+                <div class="validate subject_msg"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message *</label>
+                <textarea class="form-control" name="message" rows="7" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate message_msg"></div>
+              </div>
+              <label for="name"> Want weekly parenting resources sent to your inbox? *</label>
+              <div class="form-group">
+              <div class="checkboxes">
+                <label for="x"><input type="radio" name="subscribe" value="true" /> <span>Yes</span></label>
+                <label for="z"><input type="radio" name="subscribe" value="false"/> <span>No</span></label>
+                <div class="validate subscribe_msg"></div>
+              </div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="form-group submit-button"><button style="background-color:#5D88CE;" type="submit">Submit</button></div>
+            </form>
+          </div>
+
+     </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+
+
+  </main><!-- End #main -->
+
+  <footer id="footer">
+    <div class="container footer_info">
+      <div class="d-flex flex-row flex-wrap align-items-center">
+          <ul class="footer_links p-0 mr-auto">
+            <li>
+              <a href="termsandcondition.html">Privacy &amp; Terms</a>
+            </li>
+          </ul>
+          <ul class="social_links p-0 ml-auto">
+            <li>
+              <a href="https://twitter.com/deviecoach" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/DevieCoach" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/devie.coach" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/js/validation/contactus_validation.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
