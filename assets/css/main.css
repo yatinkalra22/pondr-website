@@ -123,7 +123,7 @@ h6 {
   font-style: normal;
   font-weight: bold;
   font-size: 27px;
-  color: #000000;
+  color: #615D6C;
 }
 
 #header ul.navbar-nav {
@@ -147,7 +147,7 @@ h6 {
 }
 
 #header ul.navbar-nav li a:hover {
-  color: #5D88CE;
+  color: #615D6C;
 }
 
 .try_button {
@@ -403,7 +403,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #000000;
+  color: #615D6C;
 }
 
 .mobile-nav {
