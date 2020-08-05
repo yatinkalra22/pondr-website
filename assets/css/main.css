@@ -123,7 +123,7 @@ h6 {
   font-style: normal;
   font-weight: bold;
   font-size: 27px;
-  color: #5D88CE;
+  color: #000000;
 }
 
 #header ul.navbar-nav {
@@ -134,7 +134,7 @@ h6 {
   padding: 0px 15px;
 }
 
-#header ul.navbar-nav li a{
+#header ul.navbar-nav li a {
   /* color: #364146; */
   color: #000;
   font-size: 17px;
@@ -157,7 +157,7 @@ h6 {
 }
 
 @media (max-width: 786px) {
-  #header .trybtn .try_button{
+  #header .trybtn .try_button {
     margin-right: 55px !important;
   }
 }
@@ -187,6 +187,7 @@ h6 {
     font-size: 28px;
     padding: 8px 0;
   }
+
   .home-video {
     width: 90%;
     margin-left: 0%;
@@ -204,11 +205,12 @@ h6 {
     text-align: center;
     padding-top: 10%;
   }
+
   /* #header > .container {
     padding: 0;
     text-align: center;
   } */
-  .logo > ul {
+  .logo>ul {
     padding: 0;
   }
 }
@@ -221,6 +223,7 @@ h6 {
   .try-it-button {
     display: block;
   }
+
   .home-video {
     width: 60%;
     /* max-width: 90%; */
@@ -239,7 +242,7 @@ h6 {
   background: url("assets/img/logo.png");
 }
 
-#header .logo > ul > li {
+#header .logo>ul>li {
   display: inline-block;
   padding-right: 10px;
   padding-left: 10px;
@@ -277,7 +280,7 @@ h6 {
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   background-color: #7b909a;
   position: relative;
   white-space: nowrap;
@@ -297,8 +300,8 @@ h6 {
 }
 
 .nav-menu a:hover,
-.nav-menu .active > a,
-.nav-menu li:hover > a {
+.nav-menu .active>a,
+.nav-menu li:hover>a {
   float: left;
   text-decoration: none;
 }
@@ -317,7 +320,7 @@ h6 {
   transition: ease all 0.3s;
 }
 
-.nav-menu .drop-down:hover > ul {
+.nav-menu .drop-down:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -336,12 +339,12 @@ h6 {
 }
 
 .nav-menu .drop-down ul a:hover,
-.nav-menu .drop-down ul .active > a,
-.nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul .active>a,
+.nav-menu .drop-down ul li:hover>a {
   color: #5a6063;
 }
 
-.nav-menu .drop-down > a:after {
+.nav-menu .drop-down>a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 5px;
@@ -352,17 +355,17 @@ h6 {
   left: calc(100% - 30px);
 }
 
-.nav-menu .drop-down .drop-down:hover > ul {
+.nav-menu .drop-down .drop-down:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
 }
 
-.nav-menu .drop-down .drop-down > a {
+.nav-menu .drop-down .drop-down>a {
   padding-right: 35px;
 }
 
-.nav-menu .drop-down .drop-down > a:after {
+.nav-menu .drop-down .drop-down>a:after {
   content: "\eaa0";
   font-family: IcoFont;
   position: absolute;
@@ -373,10 +376,12 @@ h6 {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
-  .nav-menu .drop-down .drop-down:hover > ul {
+
+  .nav-menu .drop-down .drop-down:hover>ul {
     left: -100%;
   }
-  .nav-menu .drop-down .drop-down > a:after {
+
+  .nav-menu .drop-down .drop-down>a:after {
     content: "\ea9d";
   }
 }
@@ -434,13 +439,13 @@ h6 {
 }
 
 .mobile-nav a:hover,
-.mobile-nav .active > a,
-.mobile-nav li:hover > a {
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
   color: #009cea;
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
+.mobile-nav .drop-down>a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
@@ -448,11 +453,11 @@ h6 {
   right: 15px;
 }
 
-.mobile-nav .active.drop-down > a:after {
+.mobile-nav .active.drop-down>a:after {
   content: "\eaa1";
 }
 
-.mobile-nav .drop-down > a {
+.mobile-nav .drop-down>a {
   padding-right: 35px;
 }
 
@@ -517,7 +522,7 @@ h6 {
 
 @media (min-width: 1300px) {
   #hero {
-    height:100vh;
+    height: 100vh;
   }
 }
 
@@ -539,7 +544,8 @@ h6 {
   width: 51%;
   height: 100%;
   transform: translateX(12%);
-  justify-self: center;;
+  justify-self: center;
+  ;
 }
 
 .scroll_down_arrow {
@@ -561,6 +567,7 @@ h6 {
   /* align-self: center; */
   /* width: 10%; */
 }
+
 #hero .googleplay {
   /* align-self: center; */
   display: contents;
@@ -629,7 +636,7 @@ section {
 
 .features_container h1 {
   font-weight: 700;
-  color : #000;
+  color: #000;
   text-align: center;
   font-size: 32px;
 }
@@ -644,10 +651,8 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
-    ),
+  background: linear-gradient(rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)),
     url("../img/cta-bg.jpg") center center;
   background-size: cover;
   padding: 80px 0;
@@ -797,15 +802,18 @@ section {
     text-align: center;
     margin: 10px 0 5px 0;
   }
+
   .testimonials .testimonial-item p {
     margin: 0 5px 0 5px;
     padding: 5px 5px 15px 5px;
     font-size: 18px;
   }
+
   .testimonials .testimonial-item .quote-icon-left,
   .testimonials .testimonial-item .quote-icon-right {
     font-size: 20px;
   }
+
   .testimonials .owl-dot {
     width: 8px;
     height: 8px;
@@ -964,7 +972,7 @@ q {
   padding: 18px 22px;
   color: #000;
   /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
-  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
@@ -1243,9 +1251,10 @@ q {
 }
 
 /* HS Fix ==> To center the client logos */
-.clients > div > div > div > div > a {
+.clients>div>div>div>div>a {
   text-align: center;
 }
+
 @media (max-width: 786px) {
   .clients .container .section-title h2 {
     font-size: 26px;
@@ -1257,6 +1266,7 @@ q {
     max-width: 30%;
   }
 }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
