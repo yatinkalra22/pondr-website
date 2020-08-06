@@ -541,11 +541,10 @@ h6 {
 }
 
 #hero .hero-img img {
-  width: 51%;
+  width: 100%;
   height: 100%;
   transform: translateX(12%);
   justify-self: center;
-  ;
 }
 
 .scroll_down_arrow {
@@ -584,7 +583,7 @@ h6 {
 
 @media screen and (max-width: 500px) {
   #hero .hero-img img {
-    width: 70%;
+    width: 90%;
     margin-top: 30px !important;
   }
 }
