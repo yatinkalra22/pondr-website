@@ -644,7 +644,6 @@ section {
 
 #footer ul li {
   padding: 5px;
-  margin: 0 5px;
 }
 
 #footer ul li a {
@@ -656,11 +655,14 @@ section {
   padding: 0px 8px;
 }
 
+#footer ul.social_links {
+  padding: 0px 8px;
+}
+
 @media (max-width: 769px) {
   #footer ul.footer_links:first-child {
     order: 1;
   }
-
 
   #footer ul.social_links {
     margin-right: 50vh;
