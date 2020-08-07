@@ -1,8 +1,9 @@
 .cookie {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
-.cookie .section-title .cookie_title, .cookie .section-title .cookie_subtitle {
+.cookie .section-title .cookie_title,
+.cookie .section-title .cookie_subtitle {
   font-weight: 600;
   color: #000;
 }

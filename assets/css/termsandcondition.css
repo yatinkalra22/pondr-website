@@ -1,12 +1,12 @@
 .privacy {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .privacy_container {
   max-width: 930px;
 }
 
-.privacy .section-title h4{
+.privacy .section-title h4 {
   font-weight: 700 !important;
   color: #000;
   font-size: 30px;
