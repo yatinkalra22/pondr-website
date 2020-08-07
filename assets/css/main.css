@@ -12,7 +12,7 @@
 body {
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
-  color: #ffffff;
+  background-color: #ffffff;
   margin: 0;
 }
 
@@ -88,12 +88,12 @@ h6 {
 }
 
 #header {
-
-  height: 8vh;
+  height: 9vh;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
   background-color: #fff;
+  padding: 0px 5px;
 }
 
 #header.header-scrolled {
@@ -222,6 +222,8 @@ h6 {
 }
 
 @media (min-width: 769px) {
+
+
   .try-it-button {
     display: block;
   }
@@ -236,7 +238,6 @@ h6 {
 
 #header img {
   width: 70px;
-  height: 45px;
   background: url("assets/img/logo.png");
 }
 
@@ -495,6 +496,7 @@ h6 {
 }
 
 @media screen and (max-width: 750px) {
+
   #header ul.navbar-nav {
     max-width: 400px !important;
     overflow-x: hidden;
@@ -507,7 +509,7 @@ h6 {
 
 #hero {
   width: 100%;
-  height: 91vh;
+  height: 89vh;
   background-color: #C4CFD4;
   background-repeat: no-repeat;
   background-size: contain;
@@ -585,7 +587,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px 0 0 0;
   overflow: hidden;
 }
 
@@ -1046,6 +1048,8 @@ q {
 }
 
 @media (max-width: 992px) {
+
+
   .team .member {
     margin-bottom: 230px;
   }
@@ -1248,6 +1252,7 @@ q {
 }
 
 @media (max-width: 786px) {
+
   .clients .container .section-title h2 {
     font-size: 26px;
   }
