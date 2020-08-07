@@ -621,6 +621,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
+  padding-top: 10px;
   height: 9vh;
   color: #364146;
   font-size: 14px;
@@ -633,21 +634,34 @@ section {
   flex-direction: row;
   align-items: center;
   margin: 0px;
-  height: 72px;
+  height: fit-content;
   font-size: 17px;
   font-weight: 600;
   width: fit-content;
+}
+
+
+
+#footer ul li {
+  padding: 5px;
+  margin: 0 5px;
 }
 
 #footer ul li a {
   color: #000;
 }
 
+
 #footer ul.social_links li {
   padding: 0px 8px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 769px) {
+  #footer ul.footer_links:first-child {
+    order: 1;
+  }
+
+
   #footer ul.social_links {
     margin-right: 50vh;
   }
