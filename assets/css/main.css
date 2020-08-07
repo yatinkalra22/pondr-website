@@ -528,8 +528,8 @@ h6 {
 }
 
 #hero .hero-img img {
-  width: 280px;
-  height: 75vh;
+  width: 435px;
+  height: auto;
   /* transform: translateX(12%); */
   justify-self: center;
 }
@@ -564,25 +564,27 @@ h6 {
 
 
 
-@media screen and (max-width: 500px) {
-  #hero .hero-img img {
-    width: 210px;
-    height: 52vh;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  #hero .hero-img img {
-    width: 175px;
-    height: auto;
-  }
-}
-
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
+
+@media screen and (max-width: 800px) {
+  #hero .hero-img img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #hero .hero-img img {
+    width: 250px;
+    height: 52vh;
+  }
+}
+
+
 
 
 /*--------------------------------------------------------------
