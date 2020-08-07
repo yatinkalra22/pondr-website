@@ -10,8 +10,10 @@
 @import url(https://fonts.google.com/specimen/Karla);
 
 body {
+  box-sizing: border-box;
   font-family: "Karla", sans-serif;
-  color: #444444;
+  color: #ffffff;
+  margin: 0;
 }
 
 a {
@@ -86,12 +88,12 @@ h6 {
 }
 
 #header {
-  height: 72px;
+
+  height: 8vh;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  /* padding: 15px 0; */
-  background: #fff;
+  background-color: #fff;
 }
 
 #header.header-scrolled {
@@ -505,22 +507,17 @@ h6 {
 
 #hero {
   width: 100%;
-  /* background-color: #6b90cb; */
+  height: 91vh;
   background-color: #C4CFD4;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
-  margin-top: 2%;
   padding: 60px 0;
   display: flex;
   align-items: center;
 }
 
-@media (min-width: 1300px) {
-  #hero {
-    height: 100vh;
-  }
-}
+@media (min-width: 1300px) {}
 
 
 #hero h1 {
@@ -1266,7 +1263,7 @@ q {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #ececec;
+  height: 9vh;
   color: #364146;
   font-size: 14px;
   font-family: "Karla", sans-serif;
