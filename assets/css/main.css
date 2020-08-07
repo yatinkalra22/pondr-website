@@ -233,12 +233,8 @@ h6 {
 }
 
 #header img {
-  width: 45px;
+  width: 70px;
   height: 45px;
-  left: 85px;
-  top: 10px;
-  bottom: 10px;
-  border-radius: 30px;
   background: url("assets/img/logo.png");
 }
 
@@ -510,7 +506,7 @@ h6 {
 #hero {
   width: 100%;
   /* background-color: #6b90cb; */
-  background-color: #615D6C;
+  background-color: #C4CFD4;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
