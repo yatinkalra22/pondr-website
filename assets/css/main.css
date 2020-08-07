@@ -514,7 +514,6 @@ h6 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
-  padding: 60px 0;
   display: flex;
   align-items: center;
 }
@@ -536,7 +535,6 @@ h6 {
 }
 
 #hero .hero-img img {
-  margin-top: 60px;
   width: 280px;
   height: 75vh;
   transform: translateX(12%);
@@ -613,32 +611,6 @@ section {
 
 .section-title p {
   margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
-.features {
-  background-size: cover;
-  padding: 60px 0;
-  position: relative;
-}
-
-.features .features_container {
-  position: relative;
-  z-index: 10;
-  max-width: 900px;
-}
-
-.features_container h1 {
-  font-weight: 700;
-  color: #000;
-  text-align: center;
-  font-size: 32px;
-}
-
-.features_container img {
-  width: 100%;
 }
 
 
